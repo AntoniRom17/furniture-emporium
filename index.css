@@ -18,10 +18,9 @@ button {
   color: orange;
   cursor: pointer;
   font-size: 14px;
-  padding-left: 360px;
-  padding-right: 360px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
 
 }
 
@@ -32,13 +31,12 @@ button {
 }
 
 .description {
-  display: inline-block;
+  display: block;
+  margin: 0 auto;
   background-color: orange;
   border-color: black;
   border-style: groove;
-  padding-left: 30px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 10px;
   font-family: Arial, Helvetica, sans-serif;
   width: 750px;
   text-align: center;
@@ -53,30 +51,29 @@ button:hover {
 .Couch {
     border-style: groove;
     border-color: black;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px auto;
+    width: fit-content;
 }
 
 .Table {
     border-style: groove;
     border-color: black;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px auto;
+    width: fit-content;
 }
 
 .Chair {
      border-style: groove;
     border-color: black;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px auto;
+    width: fit-content;
 }
 
 h1 {
     text-align: center;
     font-size: 50px;
+    width: fit-content;
+    margin: 10px auto;
 }
 
 
